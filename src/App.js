@@ -926,6 +926,7 @@ const resList = [
 const Body = () => {
   return (
     <div className="body-container">
+      <div>
       <div className="search">
         <input
           className="search-input"
@@ -942,6 +943,7 @@ const Body = () => {
 
           <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         ))}
+      </div>
       </div>
     </div>
   );
